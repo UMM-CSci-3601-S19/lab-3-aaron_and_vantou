@@ -1,7 +1,7 @@
-export interface User {
-  id: string;
-  name: string;
-  age: number;
-  company: string;
-  email: string;
+export interface Todo {
+  _id: string;
+  owner: string;
+  status: boolean;
+  body: string;
+  category: string;
 }
